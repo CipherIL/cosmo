@@ -1,0 +1,12 @@
+## Directories ##
+
+node_modules
+src
+styles
+scripts
+
+## Specific Files ##
+
+./.gitignore
+./.npmignore
+./tsconfig.json
