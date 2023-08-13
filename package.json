@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ts": "tsc src/index.ts",
-    "sass": "",
-    "build": "npm run ts && npm run sass",
-    "deploy": ""
+    "ts": "tsc",
+    "sass": "cp -r ./styles ./dist",
+    "clean": "bash scripts/clean-dist.sh",
+    "transfer-files": "bash scripts/file-transfer.sh",
+    "build": "npm run clean && npm run ts && npm run sass",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
