@@ -1,0 +1,28 @@
+{
+  "name": "cosmo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc src/index.ts",
+    "sass": "",
+    "build": "npm run ts && npm run sass",
+    "deploy": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CipherIL/cosmo.git"
+  },
+  "author": "Cipher",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CipherIL/cosmo/issues"
+  },
+  "homepage": "https://github.com/CipherIL/cosmo#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "sass": "^1.65.1"
+  }
+}
